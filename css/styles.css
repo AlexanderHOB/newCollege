@@ -1,0 +1,14 @@
+/* inicio de fuentes ---------------------------------*/
+@font-face{
+	font-family: ;
+	src:url("") format("truetype");
+}
+/* fin de fuentes ------------------------------------*/
+
+/* inicio de general ---------------------------------*/
+*{
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+}
+/* fin de general ------------------------------------*/
+

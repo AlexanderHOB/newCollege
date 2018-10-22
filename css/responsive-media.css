@@ -1,0 +1,28 @@
+/* inicio --- -----------------------------------------*/
+/* Extra Small */
+@media ( min-width : 320px ) {     
+	. { font-size: #;} /* 1rem = 16px */ 
+	. { font-size: #;} /* 1rem = 16px */
+}
+/* Small */
+@media ( min-width : 576px ) {     
+	. { font-size: #;} /* 1rem = 16px */ 
+	. { font-size: #;} /* 1rem = 16px */
+}
+/* Medium (punto de interrupción) */
+@media (min-width: 768px) {  
+	. { font-size: #;} /* 1rem = 16px */ 
+	. { font-size: #;} /* 1rem = 16px */
+}
+/* Large */
+@media ( min-width : 992px ) {    
+	. { font-size: #;} /* 1rem = 16px */ 
+	. { font-size: #;} /* 1rem = 16px */ 
+} 
+/* Extra Large */
+@media ( min-width : 1200px ) {  
+	. { font-size: #;} /* 1rem = 16px */ 
+	. { font-size: #;} /* 1rem = 16px */ 
+} 
+/* fin ---------------------------------------------*/
+
