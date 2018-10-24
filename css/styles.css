@@ -40,3 +40,9 @@
 
 
 /* fin de Carousel*/
+/* Noticias */
+div[class*='col']{
+	padding-bottom: 0.285714em /*4px-14*/
+}
+
+/*Fin de Noticias*/
