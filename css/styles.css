@@ -21,6 +21,38 @@
 	width: 280px;
 }
 }
+@media(min-width:400px) { 
+	.text-cel
+{
+		padding-top: 2em;
+		font-size: 2em;
+}
+.carousel-inner{
+	padding-top:4.2em;/*60px*/
+}
+.facebook{
+	width: 350px;
+}
+.youtube{
+	width: 350px;
+}
+}
+@media(min-width:600px){
+	.facebook{
+		max-width: 800px;
+	}
+	.youtube{
+		width: 500px;
+	}
+}
+@media(min-width:980px){
+	.facebook{
+		max-width: 300px;
+	}
+	.youtube{
+		width: 300px;
+	}
+}
 /*fin media querys*/
 /* inicio de general ---------------------------------*/
 *{
