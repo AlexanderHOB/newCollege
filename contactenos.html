@@ -17,10 +17,11 @@
 	<link rel="stylesheet" href="animate/animate.css">
 	<!-- Mis estilos CSS -->
 	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/contactenos.css">
 	<link rel="stylesheet" href="css/responsive-media.css">
 	<!--icono-->
 	<link rel="shortcut icon" href="img/ico/logo.ico">
-	<title>New College!</title>
+	<title>Contáctenos</title>
 </head>
 <body>
 	<!-- Inicio de Loading -->
@@ -147,6 +148,45 @@
 	</main>
 	<!-- Fin de main-->
 	
+	<!--Incio de Contáctenos-->
+	<h2 class="text-center mt-5">Contáctenos</h2>
+	<section class="container mb-5">
+		<div class="row">
+			<div id="map1" class="col-12 col-lg-6 contact-me-padding mt-contact">
+				<div id="map" class="map-container mx-auto">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.5431683657116!2d-75.21428508561758!3d-12.07491344571135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910e96508f73c831%3A0x1e57f5f0f8c2d2f3!2sJir%C3%B3n+Cajamarca+909%2C+Huancayo!5e0!3m2!1ses!2spe!4v1540481272391" class="map" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div id="form1" class="col-12 col-lg-6 contact-me-padding mt-contact">
+				<div id="form" class="box mx-auto">	
+					<h4>Formulario</h4>
+					<form action="consulta.php" method="POST" autocomplete="off">
+						<div class="inputBox">
+							<input type="text" name="nombre" id="nombre" required>
+							<label for="nombre">Nombre</label>
+						</div>
+						<div class="inputBox">
+							<input type="text" name="email" id="email" required>
+							<label for="telefono">Correo</label>
+						</div>
+						<div class="inputBox">
+							<input type="tel" name="telefono" id="telefono" required>
+							<label for="telefono">Telefono</label>
+						</div>
+						<div class="textArea">
+							<label for="mensaje">Mensaje</label>
+							<textarea name="mensaje" id="mensaje" class="form-text" required></textarea>
+						</div>						
+						<div class="text-center">
+							<input type="submit" name="boton" class="btn btn-primary mx-" value="Submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Fin de Contáctenos-->
+
 	<!-- Optional JavaScript -->
 	<!-- jQuery, then Popper.js, then Bootstrap JS -->
 	<script src="js/bootstrap/jquery.js"></script>
