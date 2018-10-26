@@ -52,7 +52,7 @@
 	.youtube{
 		width: 300px;
 	}
-	
+
 }
 /*fin media querys*/
 /* inicio de general ---------------------------------*/
@@ -236,4 +236,22 @@ div[class*='col']{
                  0 30px 30px rgba(0, 0, 0, .3);
   }}
 /*Fin de Noticias*/
-/* fin de Carousel*/
+/*Frames*/
+hr {
+	height: 4px;
+	padding: 0;
+	margin: 1;
+}
+.hr-primary{
+	background-image: -webkit-linear-gradient(left, rgba(66,133,244,.8), rgba(66, 133, 244,.6), rgba(0,0,0,0));
+}
+.text-siguenos{
+	color:#007BFF;
+	font-size: 2em;
+}
+.text-frases{
+	color:#06369A;
+	font-size: 2em;
+	font-family: 'helvetica';
+}
+/*Fin de Frames*/
