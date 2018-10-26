@@ -1,27 +1,8 @@
-/* Inicio de Vision y Mision ------------------*/
-.img-mision{
-	background-image: url(../img/bg/1.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-blend-mode: soft-light;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-.img-vision{
-	background-image: url(../img/bg/2.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-blend-mode: soft-light;
-	background-color: rgba(0, 0, 0, 0.5);
-}
-/* Fin de Vision y Mision -------------------- */
-
 /* Incio de consejo directivo ----------------*/
 .card{
 	border: none;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-	transition: 0.5s;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+	transition: all 0.5s ease;
 }
 .card:hover{
 	transform: translateY(-10px);
