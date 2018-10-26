@@ -1,7 +1,7 @@
 //Incio de loading
 var loading = document.querySelector('.loading');
 window.onload = () => {
-		loading.classList.add('loadingOpacity');
+	loading.classList.add('loadingOpacity');
 	setTimeout(()=>{
 		loading.classList.add('ghost');
 	}, 500);
@@ -27,3 +27,15 @@ window.onload = () => {
 // </div>
 // 	`
 // }
+/*Incio de flecha*/
+window.onscroll = function() {onScroll()};
+var arrow = document.getElementById("arrow");
+function onScroll() {
+	//Flecha y moon Sun
+	if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400){
+		arrow.classList.add("animacion3");
+	}else{
+		arrow.classList.remove("animacion3");
+	}
+}
+/*Fin de Flecha*/
