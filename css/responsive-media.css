@@ -26,3 +26,43 @@
 } 
 /* fin ---------------------------------------------*/
 
+/* inicio de contactenos -----------------------------------------*/
+/* Extra Small */
+@media ( min-width : 320px ) {     
+	.map-container{width: 90%} /* 1rem = 16px */
+	.map{width: 100%} /* 1rem = 16px */
+	.box{width: 90%} /* 1rem = 16px */
+	.contact-me-padding{padding: 1em;}
+	.mt-contact{margin-top: 4em;}
+}
+/* Small */
+@media ( min-width : 576px ) {  
+	.map-container{width: 400px} /* 1rem = 16px */    
+	.map{width: 400px} /* 1rem = 16px */
+	.box{width: 400px} /* 1rem = 16px */
+	.contact-me-padding{padding: 3em;}
+	.mt-contact{margin-top: 1em;}
+}
+/* Medium (punto de interrupción) */
+@media (min-width: 768px) {  
+	.contact-me-padding{padding: 4em;}
+	.mt-contact{margin-top: 0.5em;}
+}
+/* Large */
+@media ( min-width : 992px ) {    
+
+} 
+/* Extra Large */
+@media ( min-width : 1200px ) {  
+	.map-container{width: 400px} /* 1rem = 16px */    
+	.map{width: 400px} /* 1rem = 16px */
+	.box{width: 420px} /* 1rem = 16px */
+	.contact-me-padding{padding: 4em;}
+} 
+@media ( min-width : 1500px ) {  
+	.map-container{width: 450px} /* 1rem = 16px */    
+	.map{width: 450px} /* 1rem = 16px */
+	.box{width: 450px} /* 1rem = 16px */
+	.contact-me-padding{padding: 5em;}
+}
+/* fin de contactenos --------------------------------------------*/
