@@ -1,0 +1,23 @@
+.section-padding{
+    margin-top:70px;
+}
+
+
+/*Image grid*/
+#my-grid{
+    margin-top: 4.5em;
+}
+.grid-padding{
+    padding: 0 .5em;
+}
+.grid-padding img{
+    margin-bottom: 2em;
+    transition: 0.8s ease;
+}
+.grid-padding img:hover{
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+    transition: 0.8s ease;
+}
+.col-sm-4{
+    padding-right: 2.2em;
+}
