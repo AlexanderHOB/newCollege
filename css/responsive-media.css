@@ -24,7 +24,81 @@
 	. { font-size: #;} /* 1rem = 16px */ 
 	. { font-size: #;} /* 1rem = 16px */ 
 } 
-/* fin ---------------------------------------------*/
+/* fin ----------------------------------------------*/
+
+/* inicio de Navbar -------------------------------*/
+/* Extra Small */
+@media ( min-width : 320px ) {     
+	. { font-size: #;} /* 1rem = 16px */ 
+	. { font-size: #;} /* 1rem = 16px */
+}
+/* Small */
+@media ( min-width : 576px ) {     
+	. { font-size: #;} /* 1rem = 16px */ 
+	. { font-size: #;} /* 1rem = 16px */
+}
+/* Medium (punto de interrupción) */
+@media (min-width: 768px) {  
+	
+}
+/* Large */
+@media ( min-width : 992px ) {    
+	. { font-size: #;} /* 1rem = 16px */ 
+	. { font-size: #;} /* 1rem = 16px */ 
+} 
+/* Extra Large */
+@media ( min-width : 1200px ) {  
+	. { font-size: #;} /* 1rem = 16px */ 
+	. { font-size: #;} /* 1rem = 16px */ 
+} 
+/* fin de Navbar ---------------------------------*/
+
+/* Inicio de Frames ------------------------------*/
+@media(max-width:400px) { 
+	.text-cel
+	{
+		padding-top: 2em;
+		font-size: 2em;
+	}
+	
+	.facebook{
+		width: 280px;
+	}
+	.youtube{
+		width: 280px;
+	}
+}
+@media(min-width:400px) { 
+	.text-cel
+	{
+		margin-top: 2em;
+		font-size: 2em;
+	}
+	
+	.facebook{
+		width: 350px;
+	}
+	.youtube{
+		width: 350px;
+	}
+}
+@media(min-width:600px){
+	.facebook{
+		max-width: 800px;
+	}
+	.youtube{
+		width: 500px;
+	}
+}
+@media(min-width:980px){
+	.facebook{
+		max-width: 300px;
+	}
+	.youtube{
+		width: 300px;
+	}
+}
+/* Fin de Frames -------------------------------------------------*/
 
 /* inicio de contactenos -----------------------------------------*/
 /* Extra Small */

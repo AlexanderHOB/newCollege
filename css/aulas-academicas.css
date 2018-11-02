@@ -1,23 +1,160 @@
-.section-padding{
-    margin-top:70px;
+/* Incio de slider -----------------------------*/
+.first-slider-religiosas{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
 }
+.second-slider-religiosas{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.three-slider-religiosas{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first-slider-academicas{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.second-slider-academicas{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.three-slider-academicas{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first-slider-profesores{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.second-slider-profesores{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.three-slider-profesores{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first-slider-verano{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.second-slider-verano{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.three-slider-verano{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first-slider-taller{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.second-slider-taller{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.three-slider-taller{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+/* Fin de slider -------------------------------*/
 
+.section-padding{
+	margin-top:70px;
+}
 
 /*Image grid*/
 #my-grid{
-    margin-top: 4.5em;
+	margin-top: 4.5em;
 }
 .grid-padding{
-    padding: 0 .5em;
+	padding: 0 .5em;
 }
 .grid-padding img{
-    margin-bottom: 2em;
-    transition: 0.8s ease;
+	margin-bottom: 2em;
+	transition: 0.8s ease;
 }
 .grid-padding img:hover{
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
-    transition: 0.8s ease;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+	transition: 0.8s ease;
 }
 .col-sm-4{
-    padding-right: 2.2em;
+	padding-right: 2.2em;
 }

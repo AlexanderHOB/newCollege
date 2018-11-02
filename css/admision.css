@@ -1,0 +1,110 @@
+/* Incio de slider -----------------------------*/
+.first-slider-admision{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.second-slider-admision{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.three-slider-admision{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first-slider-pensiones{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.second-slider-pensiones{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.three-slider-pensiones{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first-slider-proceso{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.second-slider-proceso{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.three-slider-proceso{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first-slider-requisitos{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.second-slider-requisitos{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.three-slider-requisitos{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+/* Fin de slider -------------------------------*/

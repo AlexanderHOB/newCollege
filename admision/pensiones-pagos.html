@@ -36,26 +36,25 @@
 
 	<!-- Header-->
 	<header id="header">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-			<div class="container">
-				<a class="navbar-brand" href="../index.html"><img src="../img/logo/logo4.png" class="nav-logo" alt="logo New Colege"> New College</a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white nav-shadow fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="../index.html"><img src="../img/logo/logo1.png" class="nav-logo" alt="logo New Colege"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				
+
 				<div class="collapse navbar-collapse" id="navbar">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
 							<a class="nav-link" href="../index.html">Inicio</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Quiénes Somos
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="../quienes-somos/bienvenida.html">Bienvenida</a>
 								<a class="dropdown-item" href="../quienes-somos/mision-vision.html">Misión y Visión</a>
-								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="../quienes-somos/principios-educativos.html">Principios Educativos</a>
 								<a class="dropdown-item" href="../quienes-somos/historia.html">Historia</a>
 								<a class="dropdown-item" href="../quienes-somos/porque-elegir-new-colllege.html">¿Por qué elegir New College?</a>
@@ -63,8 +62,8 @@
 							</div>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Admisión
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<i class="fas fa-angle-down d-none d-lg-block"></i>Admisión
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="admision.html">Admisión 2019 - 2020</a>
@@ -84,7 +83,6 @@
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="../areas-academicas/profesores.html">Profesores</a>
 								<a class="dropdown-item" href="../areas-academicas/programa-verano.html">Programa de Verano</a>
-
 							</div>
 						</li>
 						<li class="nav-item dropdown">
@@ -96,16 +94,16 @@
 								<a class="dropdown-item" href="../familia/preceptoria.html">Preceptoría</a>		   
 								<a class="dropdown-item" href="../familia/formacion-espiritual.html">Formación Espiritual</a>
 							</div>
-						</li>
-						
+						</li>		
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Eventos
+								Programa
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="../eventos/noticias.html">Noticias</a>
-								<a class="dropdown-item" href="../eventos/calendario-escolar.html">Calendario Escolar</a>		   
-								<a class="dropdown-item" href="../eventos/galeria-imagenes.html">Galería de Imagenes</a>
+								<a class="dropdown-item" href="../programa/inicial.html">Incial</a>
+								<a class="dropdown-item" href="../programa/primaria.html">Primaria</a>		   
+								<a class="dropdown-item" href="../programa/secundaria.html">Secundaria</a>
+								<a class="dropdown-item" href="../programa/academia.html">Academia</a>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -118,39 +116,34 @@
 	</header>
 	<!--Fin de header-->
 
-	<!--Incio de Main-->
-	<main id="main">
-		<div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img class="w-100" src="../img/admision/1.jpg" alt="First slide">
-				</div>
-				<div class="carousel-item">
-					<img class="w-100" src="../img/admision/2.jpg" alt="Second slide">
-				</div>
-				<div class="carousel-item">
-					<img class="w-100" src="../img/admision/3.jpg" alt="Third slide">
-				</div>
-				<div class="overlay">
-					<div class="container">
-						<div class="row align-items-center">
-							<div class="col-md-6 offset-md-6 text-center text-md-right">
-								<h1 class="text-cel">New College</h1>
-								<p class="d-none d-md-block"></p>
-								<a href="#" class="btn btn-outline-light">Bienvenido</a>
-							</div>
-						</div>
-					</div>
-				</div>
+	<!--Inicio de Slider-->
+	<div id="carouselExampleFade" class="carousel slide carousel-fade sliders" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="first-slider-pensiones"></div>
+			</div>
+			<div class="carousel-item">
+				<div class="second-slider-pensiones"></div>
+			</div>
+			<div class="carousel-item">
+				<div class="three-slider-pensiones"></div>
 			</div>
 		</div>
-	</main>
-	<!--Fin de Main-->
+		<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!--Fin de Slider-->
 
 	<!--Inicio de Pensiones y Pagos-->
-	<h2 class="text-center mt-5 pt-5">Pensiones y Pagos</h2>
+	<h2 class="text-center mt-5 pt-5 animated infinite bounce azul">Pensiones y Pagos</h2>
 	<section class="container mb-5 pb-5">
-		<h3 class="mt-5">Pensiones y Matrículas</h3>
+		<h3 class="mt-5 naranja">Pensiones y Matrículas</h3>
 		<p class="lead">Pensiones y Pagos vigentes en el periodo 2018</p>
 		<table border='1' cellpadding='4' cellspacing='0' style='width:100%'>
 			<tbody>
@@ -159,44 +152,179 @@
 				</tr>
 				<tr>
 					<td>
-						De 1° de Primaria a 6° de Primaria</td>
+					De 1° de Primaria a 6° de Primaria</td>
 					<td>
-						S/. 250.00 (10 pensiones a pagar al término del mes del servicio educativo. El último día útil del mes hasta las 5:00 pm)</td>
+					S/. 250.00 (10 pensiones a pagar al término del mes del servicio educativo. El último día útil del mes hasta las 5:00 pm)</td>
 				</tr>
 				<tr>
 					<td>
-						Matrícula (1 solo pago anual) nivel Primaria</td>
+					Matrícula (1 solo pago anual) nivel Primaria</td>
 					<td>
-						S/. 275.00 (a pagar en la ratificación de matrícula)</td>
+					S/. 275.00 (a pagar en la ratificación de matrícula)</td>
 				</tr>
-		
+
 				<tr>
 					<td>
-						De 1° de Secundaria a 5° de Secundaria</td>
+					De 1° de Secundaria a 5° de Secundaria</td>
 					<td>
-						S/. 300.00 (10 pensiones a pagar al término del mes del servicio educativo. El último día útil del mes hasta las 5:00 pm)</td>
+					S/. 300.00 (10 pensiones a pagar al término del mes del servicio educativo. El último día útil del mes hasta las 5:00 pm)</td>
 				</tr>
 				<tr>
 					<td>
-						Matrícula (1 solo pago anual) nivel Secundaria</td>
+					Matrícula (1 solo pago anual) nivel Secundaria</td>
 					<td>
-						S/ 325.00 (a pagar en la ratificación de matrícula)</td>
+					S/ 325.00 (a pagar en la ratificación de matrícula)</td>
 				</tr>
 			</tbody>
 		</table>
 		<br>
 		<b><p>
-			NOTA: La pensión se debe pagar los días establecidos, cobro de mora por prórroga.</p>
-		</p></b>
-	</section>
-	<!--Fin de Pensiones y Pagos-->
-	
-	<!-- Optional JavaScript -->
-	<!-- jQuery, then Popper.js, then Bootstrap JS -->
-	<script src="../js/bootstrap/jquery.js"></script>
-	<script src="../js/bootstrap/popper.min.js"></script>
-	<script src="../js/bootstrap/bootstrap.js"></script>
-	<!-- script -->
-	<script src="../js/script.js"></script>
+		NOTA: La pensión se debe pagar los días establecidos, cobro de mora por prórroga.</p>
+	</p></b>
+</section>
+<!--Fin de Pensiones y Pagos-->
+
+<!--Incio de Footer -->
+<footer class="page-footer font-small indigo bg-dark dark">
+
+	<!-- Footer Links -->
+	<div class="container">
+
+		<!-- Grid row-->
+		<div class="row text-center d-flex justify-content-center pt-5 mb-3">
+
+			<!-- Grid column -->
+			<div class="col-md-2 mb-3">
+				<h6 class="text-uppercase font-weight-bold">
+					<a href="../quienes-somos/bienvenida.html">Nosotros</a>
+				</h6>
+			</div>
+			<!-- Grid column -->
+
+			<!-- Grid column -->
+			<div class="col-md-2 mb-3">
+				<h6 class="text-uppercase font-weight-bold ">
+					<a href="admision.html">Admisión</a>
+				</h6>
+			</div>
+			<!-- Grid column -->
+
+			<!-- Grid column -->
+			<div class="col-md-2 mb-3">
+				<h6 class="text-uppercase font-weight-bold">
+					<a href="../areas-academicas/aulas-academicas.html">Áreas Académicas</a>
+				</h6>
+			</div>
+			<!-- Grid column -->
+
+			<!-- Grid column -->
+			<div class="col-md-2 mb-3">
+				<h6 class="text-uppercase font-weight-bold">
+					<a href="../familia/formacion-padres.html">Familia</a>
+				</h6>
+			</div>
+			<!-- Grid column -->
+
+			<!-- Grid column -->
+			<div class="col-md-2 mb-3">
+				<h6 class="text-uppercase font-weight-bold">
+					<a href="../contactenos.html">Contáctenos</a>
+				</h6>
+			</div>
+			<!-- Grid column -->
+
+		</div>
+		<!-- Grid row-->
+		<hr class="rgba-white-light" style="margin: 0 15%;">
+
+		<!-- Grid row-->
+		<div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+			<!-- Grid column -->
+			<div class="col-md-8 col-12 mt-5">
+				<p style="line-height: 1.7rem; color:white;"><small class="badge badge-primary">Colegio New College</small>
+					<small class="badge badge-warning">Excelencia</small>
+				</p>
+			</div>
+			<!-- Grid column -->
+
+		</div>
+		<!-- Grid row-->
+		<hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+		<!-- Grid row-->
+		<div class="row pb-3">
+
+			<!-- Grid column -->
+			<div class="col-md-12">
+
+				<div class="mb-5 text-center">
+
+					<!-- Facebook -->
+					<a href="https://www.facebook.com/New-College-Huancayo-804533273055144/?modal=admin_todo_tour" class="fb-ic" target="_blank">
+						<i class="fab fa-facebook-square fa-lg mx-2"> </i>
+					</a>
+					<!-- Twitter -->
+					<a href="https://twitter.com/HuancayoNew" class="tw-ic" target="_blank">
+						<i class="fab fa-twitter fa-lg mx-2"> </i>
+					</a>
+					<!-- Google +-->
+					<a href="https://www.facebook.com" class="gplus-ic" target="_blank">
+						<i class="fab fa-google-plus fa-lg mx-2"> </i>
+					</a>
+					<!--Linkedin -->
+					<a href="https://www.linkedin.com/in/new-college-huancayo-a56244174/" class="li-ic" target="_blank">
+						<i class="fab fa-linkedin fa-lg mx-2"> </i>
+					</a>
+					<!--Instagram-->
+					<a href="https://www.instagram.com/newcollege_huancayo/" class="ins-ic" target="_blank">
+						<i class="fab fa-instagram fa-lg mx-2"> </i>
+					</a>
+
+				</div>
+
+			</div>
+			<!-- Grid column -->
+
+		</div>
+		<!-- Grid row-->
+
+	</div>
+	<!-- Footer Links -->
+
+	<!-- Copyright -->
+	<div class="footer-copyright text-center py-3" style="color:#fff;">© 2018 Copyright:
+		<a href="https://www.Nibbleframe.com" style="color:#fff;" target="_blank"> <small class="badge badge-success">Nibbleframe.com</small></a>
+	</div>
+	<!-- Copyright -->
+
+</footer>
+<!-- Fin de footer-->
+
+<!--Inicio de Sociales-->
+<div class="sociales">
+	<div>
+		<a href="https://www.facebook.com/New-College-Huancayo-804533273055144/?modal=admin_todo_tour" target="_blank"><img src="../img/logo/facebook.png" alt="facebook"></a>
+		<a href="https://web.whatsapp.com" target="_blank"><img src="../img/logo/whatsapp.svg" alt="whatsapp"></a>
+		<a href="https://www.youtube.com" target="_blank"><img src="../img/logo/youtube.svg" alt="youtube"></a>
+	</div>
+</div>
+<!--Fin de Sociales-->
+
+<!--inicio de flecha-->
+<a href="#">
+	<div id="arrow" class="flecha">
+		<i class="fas fa-angle-up"></i>
+	</div>
+</a>
+<!--fin de flecha-->
+
+<!-- Optional JavaScript -->
+<!-- jQuery, then Popper.js, then Bootstrap JS -->
+<script src="../js/bootstrap/jquery.js"></script>
+<script src="../js/bootstrap/popper.min.js"></script>
+<script src="../js/bootstrap/bootstrap.js"></script>
+<!-- script -->
+<script src="../js/script.js"></script>
 </body>
 </html>

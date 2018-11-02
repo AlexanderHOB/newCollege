@@ -1,0 +1,38 @@
+/* Incio de slider -----------------------------*/
+.first-slider-academia{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first-slider-inicial{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first-slider-primaria{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.first-slider-secundaria{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+/* Fin de slider -------------------------------*/

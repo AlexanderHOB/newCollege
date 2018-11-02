@@ -1,69 +1,29 @@
 /* inicio de fuentes ---------------------------------*/
-@font-face{
+/*@font-face{
 	font-family: ;
 	src:url("") format("truetype");
 }
+*/
 /* fin de fuentes ------------------------------------*/
-/*media querys*/
-@media(max-width:400px) { 
-	.text-cel
-	{
-		padding-top: 2em;
-		font-size: 2em;
-	}
-	.carousel-inner{
-		padding-top:4.2em;/*60px*/
-	}
-	.facebook{
-		width: 280px;
-	}
-	.youtube{
-		width: 280px;
-	}
-}
-@media(min-width:400px) { 
-	.text-cel
-	{
-		padding-top: 2em;
-		font-size: 2em;
-	}
-	.carousel-inner{
-		padding-top:4.2em;/*60px*/
-	}
-	.facebook{
-		width: 350px;
-	}
-	.youtube{
-		width: 350px;
-	}
-}
-@media(min-width:600px){
-	.facebook{
-		max-width: 800px;
-	}
-	.youtube{
-		width: 500px;
-	}
-}
-@media(min-width:980px){
-	.facebook{
-		max-width: 300px;
-	}
-	.youtube{
-		width: 300px;
-	}
 
-}
-/*fin media querys*/
 /* inicio de general ---------------------------------*/
 *{
 	scroll-behavior: smooth;
 	box-sizing: border-box;
 }
+body{
+	overflow-x: hidden;
+}
 .animacion3{
 	opacity: 0.85 !important;
 	transition: all 0.5s ease !important;
 	transform: translateY(-30px) !important;
+}
+.azul{
+	color: #003C71;
+}
+.naranja{
+	color: #FF6A0B;
 }
 /* fin de general ------------------------------------*/
 
@@ -95,7 +55,6 @@
 	height: 5.4em;
 	background-color: #404456;
 }
-
 #hill {
 	position: absolute;
 	width: 7.1em;
@@ -106,7 +65,6 @@
 	border-left: .25em solid whitesmoke;
 	transform: rotate(45deg);
 }
-
 #hill:after {
 	content: '';
 	position: absolute;
@@ -115,7 +73,6 @@
 	left: 0;
 	background-color: #404456;
 }
-
 #box {
 	position: absolute;
 	left: 0;
@@ -128,7 +85,6 @@
 	transform: translate(0, -1em) rotate(-45deg);
 	animation: push 2.5s cubic-bezier(.79, 0, .47, .97) infinite;
 }
-
 @keyframes push {
 	0% {
 		transform: translate(0, -1em) rotate(-45deg);
@@ -178,35 +134,74 @@
 }
 .nav-logo{
 	height: 2em;
-	width: 2em;
+}
+.nav-shadow{
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.nav-link{
+	color: #003C71 !important;
+	-webkit-font-smoothing: antialiased;
+	font-weight: bold;
+	transition: all 0.3s ease;
+	position: relative;
+}
+.nav-link:hover{
+	transition: all 0.3s ease;
+	color: #FF6A0B !important;
+}
+.nav-link i{
+	position: absolute;
+	top: 0;
+	left: 45%;
+	animation: nav-arrow 1s infinite;
+}
+@keyframes nav-arrow{
+	0%{
+		transform: translateY(-1px);
+	}
+	50%{
+		transform: translateY(-5px);
+	}
+	100%{
+		transform: translateY(-1px);
+	}
 }
 /* Fin de navbar ------------------------------------*/
 
-/* Inicio de Carousel --------------------------------*/
-#main .carousel-inner img{
-	max-height: 100vh;
-	object-fit: cover;
+/* Incio de Sliders ---------------------------------*/
+.sliders{
+	margin-top: 4.1rem;
 }
-#carousel{
-	position: relative;
+.first-slider-inicio{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/1.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
 }
-#carousel .overlay {
-	position: absolute;
-	top:0;
-	bottom: 0;
-	left: 0;
-	right:0;
-	background-color: rgba(0,0,0,0.5);
-	color:white;
+.second-slider-inicio{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/2.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
 }
-#carousel .overlay .container,
-#carousel .overlay .row{
-	height: 100%;
+.three-slider-inicio{
+	width: 100%;
+	height: 65vh;
+	background-image: url(../img/quienes-somos/3.jpg);
+	background-size: cover;
+	background-position: top;
+	background-blend-mode: center;
+	background-color: rgba(0, 0, 0, 0.2);
 }
+/* Fin de Sliders -----------------------------------*/
 
-
-/* fin de Carousel*/
-/* Noticias */
+/* Inicio de Noticias -------------------------------*/
 div[class*='col']{
 	padding-bottom: 0.285714em /*4px-14*/
 }
@@ -226,7 +221,7 @@ div[class*='col']{
 }
 /* ANIMATION */
 @-webkit-keyframes bounce {
-	100% {
+	100%{
 		top: -25px;
 
 		text-shadow: 0 1px 0 #CCC,
@@ -240,84 +235,91 @@ div[class*='col']{
 		0 9px 0 #CCC,
 		0 30px 30px rgba(0, 0, 0, .3);
 	}
-}
-/*Fin de Noticias*/
-/*Frames*/
-hr {
-	height: 4px;
-	padding: 0;
-	margin: 1;
-}
-.hr-primary{
-	background-image: -webkit-linear-gradient(left, rgba(66,133,244,.8), rgba(66, 133, 244,.6), rgba(0,0,0,0));
-}
-.text-siguenos{
-	color:#007BFF;
-	font-size: 2em;
-}
-.text-frases{
-	color:#06369A;
-	font-size: 2em;
-	font-family: 'helvetica';
-}
-/*Fin de Frames*/
+	}/* Fin de Noticias ----------------------------------*/
 
-/* Inicio de footer ---------------------------------*/
-.fb-ic,
-.tw-ic,
-.gplus-ic,
-.li-ic,
-.ins-ic
-{
-	color: #fff;
-	transition: all 0.5s ease;
-	text-decoration: none !important;
-}
-.fb-ic:hover,
-.tw-ic:hover,
-.gplus-ic:hover,
-.li-ic:hover,
-.ins-ic:hover
-{
-	color: #0E0D0D;
-}
-/* Fin de footer ------------------------------------*/
+	/* Frames -------------------------------------------*/
+	.hr-primary{
+		background-image: -webkit-linear-gradient(left, rgba(66,133,244,.8), rgba(66, 133, 244,.6), rgba(0,0,0,0));
+		height: 4px;
+		padding: 0;
+		margin: 1;
+	}
+	.text-siguenos{
+		color:#007BFF;
+		font-size: 2em;
+	}
+	.text-frases{
+		color:#06369A;
+		font-size: 2em;
+		font-family: 'helvetica';
+	}
+	/* Fin de Frames -----------------------------------*/
 
-/* Inicio de Sociales -------------------------------*/
-.sociales{
-	position: fixed;
-	top: 30%;
-	left: 0;
-}
-.sociales a img{
-	width: 2.5rem;
-	display: block;
-	transition: all 0.5s ease;
-	opacity: 0.85;
-}
-.sociales a img:hover{
-	border-radius: 50%;
-	opacity: 1;
-}
-/* Fin de Sociales ----------------------------------*/
+	/* Inicio de footer ---------------------------------*/
+	.fb-ic,
+	.tw-ic,
+	.gplus-ic,
+	.li-ic,
+	.ins-ic
+	{
+		color: #fff;
+		transition: all 0.5s ease;
+		text-decoration: none !important;
+	}
+	.fb-ic:hover,
+	.tw-ic:hover,
+	.gplus-ic:hover,
+	.li-ic:hover,
+	.ins-ic:hover
+	{
+		color: #0E0D0D;
+	}
+	/* Fin de footer ------------------------------------*/
 
-/* Incio de flecha ----------------------------------*/
-.flecha{
-	border-radius: 50%;
-	color: #ffffff;
-	padding: 12px 20px;
-	cursor: pointer;
-	position: fixed;
-	right: 10px;
-	bottom: 0px;
-	transform: translateY(50px);
-	z-index: 1;
-	transition: all 0.5s ease;
-	opacity: 0;
-	background: #005dff;
-}
-.flecha:hover{
-	opacity: 1 !important;
-	box-shadow: 0 0 0.5em #005dff;
-}
-/* Fin de flecha ------------------------------------*/
+	/* Inicio de Sociales -------------------------------*/
+	.sociales{
+		position: fixed;
+		top: 20%;
+		left: 0;
+	}
+	.sociales a img{
+		width: 2.5rem;
+		display: block;
+		transition: all 0.5s ease;
+		opacity: 0.85;
+	}
+	.sociales a img:hover{
+		border-radius: 50%;
+		opacity: 1;
+	}
+	.sociales a:nth-child(1) img:hover{
+		box-shadow: 0 0 15px rgba(64, 100, 172, 0.5);
+	}
+	.sociales a:nth-child(2) img:hover{
+		box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+	}
+	.sociales a:nth-child(3) img:hover{
+		box-shadow: 0 0 15px rgba(255, 0, 0, 0.5);
+	}
+	/* Fin de Sociales ----------------------------------*/
+
+	/* Incio de flecha ----------------------------------*/
+	.flecha{
+		border-radius: 50%;
+		color: #ffffff;
+		padding: 12px 20px;
+		cursor: pointer;
+		position: fixed;
+		right: 10px;
+		bottom: 0px;
+		transform: translateY(50px);
+		z-index: 1;
+		transition: all 0.5s ease;
+		opacity: 0;
+		background: #005dff;
+	}
+	.flecha:hover{
+		opacity: 1 !important;
+		box-shadow: 0 0 0.5em #005dff;
+	}
+	/* Fin de flecha ------------------------------------*/

@@ -15,6 +15,8 @@
 	<link rel="stylesheet" href="../fontawesome/css/all.css">
 	<!--Animate-->
 	<link rel="stylesheet" href="../animate/animate.css">
+	<!--Animate on Scroll-->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	<!-- Mis estilos CSS -->
 	<link rel="stylesheet" href="../css/styles.css">
 	<link rel="stylesheet" href="../css/quienes-somos.css">
@@ -36,9 +38,9 @@
 
 	<!-- Header-->
 	<header id="header">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-			<div class="container">
-				<a class="navbar-brand" href="../index.html"><img src="../img/logo/logo4.png" class="nav-logo" alt="logo New Colege"> New College</a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white nav-shadow fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="../index.html"><img src="../img/logo/logo1.png" class="nav-logo" alt="logo New Colege"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -50,15 +52,15 @@
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Quiénes Somos
+								<i class="fas fa-angle-down d-none d-lg-block"></i>Quiénes Somos
 							</a>
-							<div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item text-light bg-dark" href="bienvenida.html">Bienvenida</a>
-								<a class="dropdown-item text-light bg-dark" href="mision-vision.html">Misión y Visión</a>
-								<a class="dropdown-item text-light bg-dark" href="principios-educativos.html">Principios Educativos</a>
-								<a class="dropdown-item text-light bg-dark" href="historia.html">Historia</a>
-								<a class="dropdown-item text-light bg-dark" href="porque-elegir-new-colllege.html">¿Por qué elegir New College?</a>
-								<a class="dropdown-item text-light bg-dark" href="consejo-directivo.html">Consejo Directivo</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="bienvenida.html">Bienvenida</a>
+								<a class="dropdown-item" href="mision-vision.html">Misión y Visión</a>
+								<a class="dropdown-item" href="principios-educativos.html">Principios Educativos</a>
+								<a class="dropdown-item" href="historia.html">Historia</a>
+								<a class="dropdown-item" href="porque-elegir-new-colllege.html">¿Por qué elegir New College?</a>
+								<a class="dropdown-item" href="consejo-directivo.html">Consejo Directivo</a>
 							</div>
 						</li>
 						<li class="nav-item dropdown">
@@ -97,12 +99,13 @@
 						</li>		
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Eventos
+								Programa
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="../eventos/noticias.html">Noticias</a>
-								<a class="dropdown-item" href="../eventos/calendario-escolar.html">Calendario Escolar</a>		   
-								<a class="dropdown-item" href="../eventos/galeria-imagenes.html">Galería de Imagenes</a>
+								<a class="dropdown-item" href="../programa/inicial.html">Incial</a>
+								<a class="dropdown-item" href="../programa/primaria.html">Primaria</a>		   
+								<a class="dropdown-item" href="../programa/secundaria.html">Secundaria</a>
+								<a class="dropdown-item" href="../programa/academia.html">Academia</a>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -115,173 +118,205 @@
 	</header>
 	<!--Fin de header-->
 
-	<!-- Inicio de Carta -->
-	<div class="bg-quienes-somos">
-		<img src="../img/quienes-somos/3.jpg" class="img-fluid" alt="Bienvenidos">
+	<!--Inicio de Slider-->
+	<div id="carouselExampleFade" class="carousel slide carousel-fade sliders" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="first-slider-bienvenida"></div>
+			</div>
+			<div class="carousel-item">
+				<div class="second-slider-bienvenida"></div>
+			</div>
+			<div class="carousel-item">
+				<div class="three-slider-bienvenida"></div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
 	</div>
-	<h2 class="text-center mt-5 pt-5 animated infinite bounce">Bienvenidos!</h2>
+	<!--Fin de Slider-->
+
+	<!-- Inicio de Carta -->
+	<h2 class="text-center mt-5 pt-5 animated infinite bounce azul">Bienvenidos!</h2>
 	<section class="container my-5 pb-5">
 		<div class="row justify-content-center align-items-center">
-			<div class="col-12 col-md-6 p-3 text-center">
+			<div class="col-12 col-md-6 text-center" data-aos="fade-right">
 				<img src="../img/quienes-somos/director.jpg" class="img-fluid" alt="director">
 			</div>
-			<div class="col-12 col-md-6 p-3">
-				<h2 >Carta del Director</h2>
-				<p class="lead" align="justify"><b>Reciban la más cordial bienvenida todos los que visitan nuestra página web.</b> <br> Colegio New College abrió sus puertas para brindar una educacion integral a 
+			<div class="col-12 col-md-6" data-aos="fade-right">
+				<h2 class="naranja">Carta del Director</h2>
+				<p class="lead text-justify"><b>Reciban la más cordial bienvenida todos los que visitan nuestra página web.</b> <br> Colegio New College abrió sus puertas para brindar una educacion integral a 
 					los estudiantes conjuntamente con el apoyo familiar en todo el proceso de educación. Junto con una intensa formación académica y científica procuramos realizar una constante 
-					labor de asesoramiento educativo familiar y de orientación escolar a través del sistema de preceptoría. De esta manera contribuimos a formar no solo estudiantes de excelencia, 
-					sino también ciudadanos con valores sólidos que tengan un desempeño constante en la sociedad. Nuestra perspectiva educativa es consciente de la investigación reciente que señala 
-					las ventajas de la educación diferenciada: hoy se sabe claramente que el desarrollo de las habilidades y capacidades de aprendizaje son diferentes en niños y niñas. Las escuelas 
-					que atienden, entonces, las diferentes necesidades de género están en capacidad de proveer a los jóvenes un entorno más rico y relevante para su desarrollo.Los invitamos a visitarnos y compartir 
-					la experiencia New College. Nuestro propósito es evidenciar por qué nuestro colegio es el mejor lugar para sus hijos. Un lugar donde se sienten y crecen seguros, conscientes de la necesidad de una sólida 
-					preparación para enfrentar su futuro profesional y familiar, contribuyendo al desarrollo de líderes que aporten a la sociedad.<br> Director New College</p>
-			</div>
+					labor de asesoramiento educativo familiar y de orientación escolar a través del sistema de preceptoría.
+				</div>
+				<div class="col-12">
+					<p class="lead text-justify" data-aos="fade-right">De esta manera contribuimos a formar no solo estudiantes de excelencia, 
+						sino también ciudadanos con valores sólidos que tengan un desempeño constante en la sociedad. Nuestra perspectiva educativa es consciente de la investigación reciente que señala 
+						las ventajas de la educación diferenciada: hoy se sabe claramente que el desarrollo de las habilidades y capacidades de aprendizaje son diferentes en niños y niñas. Las escuelas 
+						que atienden, entonces, las diferentes necesidades de género están en capacidad de proveer a los jóvenes un entorno más rico y relevante para su desarrollo.Los invitamos a visitarnos y compartir 
+						la experiencia New College. Nuestro propósito es evidenciar por qué nuestro colegio es el mejor lugar para sus hijos. Un lugar donde se sienten y crecen seguros, conscientes de la necesidad de una sólida 
+						preparación para enfrentar su futuro profesional y familiar, contribuyendo al desarrollo de líderes que aporten a la sociedad.<br><strong class="text-right d-block">Director New College</strong></p>
+					</div>
+				</div>
+			</section>
 		</div>
-	</section>
-</div>
-<!-- Fin de Carta -->
+		<!-- Fin de Carta -->
 
-<!--Incio de Footer -->
-<footer class="page-footer font-small indigo bg-dark dark">
+		<!--Incio de Footer -->
+		<footer class="page-footer font-small indigo bg-dark dark">
 
-	<!-- Footer Links -->
-	<div class="container">
+			<!-- Footer Links -->
+			<div class="container">
 
-		<!-- Grid row-->
-		<div class="row text-center d-flex justify-content-center pt-5 mb-3">
+				<!-- Grid row-->
+				<div class="row text-center d-flex justify-content-center pt-5 mb-3">
 
-			<!-- Grid column -->
-			<div class="col-md-2 mb-3">
-				<h6 class="text-uppercase font-weight-bold">
-					<a href="bienvenida.html">Nosotros</a>
-				</h6>
-			</div>
-			<!-- Grid column -->
+					<!-- Grid column -->
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+							<a href="bienvenida.html">Nosotros</a>
+						</h6>
+					</div>
+					<!-- Grid column -->
 
-			<!-- Grid column -->
-			<div class="col-md-2 mb-3">
-				<h6 class="text-uppercase font-weight-bold ">
-					<a href="../admision/admision.html">Admisión</a>
-				</h6>
-			</div>
-			<!-- Grid column -->
+					<!-- Grid column -->
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold ">
+							<a href="../admision/admision.html">Admisión</a>
+						</h6>
+					</div>
+					<!-- Grid column -->
 
-			<!-- Grid column -->
-			<div class="col-md-2 mb-3">
-				<h6 class="text-uppercase font-weight-bold">
-					<a href="../areas-academicas/aulas-academicas.html">Áreas Académicas</a>
-				</h6>
-			</div>
-			<!-- Grid column -->
+					<!-- Grid column -->
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+							<a href="../areas-academicas/aulas-academicas.html">Áreas Académicas</a>
+						</h6>
+					</div>
+					<!-- Grid column -->
 
-			<!-- Grid column -->
-			<div class="col-md-2 mb-3">
-				<h6 class="text-uppercase font-weight-bold">
-					<a href="../familia/formacion-padres.html">Familia</a>
-				</h6>
-			</div>
-			<!-- Grid column -->
+					<!-- Grid column -->
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+							<a href="../familia/formacion-padres.html">Familia</a>
+						</h6>
+					</div>
+					<!-- Grid column -->
 
-			<!-- Grid column -->
-			<div class="col-md-2 mb-3">
-				<h6 class="text-uppercase font-weight-bold">
-					<a href="../contactenos.html">Contáctenos</a>
-				</h6>
-			</div>
-			<!-- Grid column -->
-
-		</div>
-		<!-- Grid row-->
-		<hr class="rgba-white-light" style="margin: 0 15%;">
-
-		<!-- Grid row-->
-		<div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
-
-			<!-- Grid column -->
-			<div class="col-md-8 col-12 mt-5">
-				<p style="line-height: 1.7rem; color:white;"><small class="badge badge-primary">Colegio New College</small>
-					<small class="badge badge-warning">Excelencia</small>
-				</p>
-			</div>
-			<!-- Grid column -->
-
-		</div>
-		<!-- Grid row-->
-		<hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
-
-		<!-- Grid row-->
-		<div class="row pb-3">
-
-			<!-- Grid column -->
-			<div class="col-md-12">
-
-				<div class="mb-5 text-center">
-
-					<!-- Facebook -->
-					<a href="https://www.facebook.com/New-College-Huancayo-804533273055144/?modal=admin_todo_tour" class="fb-ic" target="_blank">
-						<i class="fab fa-facebook-square fa-lg mx-2"> </i>
-					</a>
-					<!-- Twitter -->
-					<a href="https://twitter.com/HuancayoNew" class="tw-ic" target="_blank">
-						<i class="fab fa-twitter fa-lg mx-2"> </i>
-					</a>
-					<!-- Google +-->
-					<a href="https://www.facebook.com" class="gplus-ic" target="_blank">
-						<i class="fab fa-google-plus fa-lg mx-2"> </i>
-					</a>
-					<!--Linkedin -->
-					<a href="https://www.linkedin.com/in/new-college-huancayo-a56244174/" class="li-ic" target="_blank">
-						<i class="fab fa-linkedin fa-lg mx-2"> </i>
-					</a>
-					<!--Instagram-->
-					<a href="https://www.instagram.com/newcollege_huancayo/" class="ins-ic" target="_blank">
-						<i class="fab fa-instagram fa-lg mx-2"> </i>
-					</a>
+					<!-- Grid column -->
+					<div class="col-md-2 mb-3">
+						<h6 class="text-uppercase font-weight-bold">
+							<a href="../contactenos.html">Contáctenos</a>
+						</h6>
+					</div>
+					<!-- Grid column -->
 
 				</div>
+				<!-- Grid row-->
+				<hr class="rgba-white-light" style="margin: 0 15%;">
+
+				<!-- Grid row-->
+				<div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+
+					<!-- Grid column -->
+					<div class="col-md-8 col-12 mt-5">
+						<p style="line-height: 1.7rem; color:white;"><small class="badge badge-primary">Colegio New College</small>
+							<small class="badge badge-warning">Excelencia</small>
+						</p>
+					</div>
+					<!-- Grid column -->
+
+				</div>
+				<!-- Grid row-->
+				<hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+
+				<!-- Grid row-->
+				<div class="row pb-3">
+
+					<!-- Grid column -->
+					<div class="col-md-12">
+
+						<div class="mb-5 text-center">
+
+							<!-- Facebook -->
+							<a href="https://www.facebook.com/New-College-Huancayo-804533273055144/?modal=admin_todo_tour" class="fb-ic" target="_blank">
+								<i class="fab fa-facebook-square fa-lg mx-2"> </i>
+							</a>
+							<!-- Twitter -->
+							<a href="https://twitter.com/HuancayoNew" class="tw-ic" target="_blank">
+								<i class="fab fa-twitter fa-lg mx-2"> </i>
+							</a>
+							<!-- Google +-->
+							<a href="https://www.facebook.com" class="gplus-ic" target="_blank">
+								<i class="fab fa-google-plus fa-lg mx-2"> </i>
+							</a>
+							<!--Linkedin -->
+							<a href="https://www.linkedin.com/in/new-college-huancayo-a56244174/" class="li-ic" target="_blank">
+								<i class="fab fa-linkedin fa-lg mx-2"> </i>
+							</a>
+							<!--Instagram-->
+							<a href="https://www.instagram.com/newcollege_huancayo/" class="ins-ic" target="_blank">
+								<i class="fab fa-instagram fa-lg mx-2"> </i>
+							</a>
+
+						</div>
+
+					</div>
+					<!-- Grid column -->
+
+				</div>
+				<!-- Grid row-->
 
 			</div>
-			<!-- Grid column -->
+			<!-- Footer Links -->
 
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3" style="color:#fff;">© 2018 Copyright:
+				<a href="https://www.Nibbleframe.com" style="color:#fff;" target="_blank"> <small class="badge badge-success">Nibbleframe.com</small></a>
+			</div>
+			<!-- Copyright -->
+
+		</footer>
+		<!-- Fin de footer-->
+
+		<!--Inicio de Sociales-->
+		<div class="sociales">
+			<div>
+				<a href="https://www.facebook.com/New-College-Huancayo-804533273055144/?modal=admin_todo_tour" target="_blank"><img src="../img/logo/facebook.png" alt="facebook"></a>
+				<a href="https://web.whatsapp.com" target="_blank"><img src="../img/logo/whatsapp.svg" alt="whatsapp"></a>
+				<a href="https://www.youtube.com" target="_blank"><img src="../img/logo/youtube.svg" alt="youtube"></a>
+			</div>
 		</div>
-		<!-- Grid row-->
+		<!--Fin de Sociales-->
 
-	</div>
-	<!-- Footer Links -->
+		<!--inicio de flecha-->
+		<a href="#">
+			<div id="arrow" class="flecha">
+				<i class="fas fa-angle-up"></i>
+			</div>
+		</a>
+		<!--fin de flecha-->
 
-	<!-- Copyright -->
-	<div class="footer-copyright text-center py-3" style="color:#fff;">© 2018 Copyright:
-		<a href="https://www.Nibbleframe.com" style="color:#fff;" target="_blank"> <small class="badge badge-success">Nibbleframe.com</small></a>
-	</div>
-	<!-- Copyright -->
-
-</footer>
-<!-- Fin de footer-->
-
-<!--Inicio de Sociales-->
-<div class="sociales">
-	<div>
-		<a href="https://www.facebook.com" target="_blank"><img src="../img/logo/facebook.svg" alt="facebook"></a>
-		<a href="https://web.whatsapp.com" target="_blank"><img src="../img/logo/whatsapp.svg" alt="whatsapp"></a>
-		<a href="https://www.youtube.com" target="_blank"><img src="../img/logo/youtube.svg" alt="youtube"></a>
-	</div>
-</div>
-<!--Fin de Sociales-->
-
-<!--inicio de flecha-->
-<a href="#">
-	<div id="arrow" class="flecha">
-		<i class="fas fa-angle-up"></i>
-	</div>
-</a>
-<!--fin de flecha-->
-
-<!-- Optional JavaScript -->
-<!-- jQuery, then Popper.js, then Bootstrap JS -->
-<script src="../js/bootstrap/jquery.js"></script>
-<script src="../js/bootstrap/popper.min.js"></script>
-<script src="../js/bootstrap/bootstrap.js"></script>
-<!-- script -->
-<script src="../js/script.js"></script>
-</body>
-</html>
+		<!-- Optional JavaScript -->
+		<!-- jQuery, then Popper.js, then Bootstrap JS -->
+		<script src="../js/bootstrap/jquery.js"></script>
+		<script src="../js/bootstrap/popper.min.js"></script>
+		<script src="../js/bootstrap/bootstrap.js"></script>
+		<!--Animate on Scroll-->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				offset: 100,
+				duration: 1500,
+			});
+		</script>
+		<!-- script -->
+		<script src="../js/script.js"></script>
+	</body>
+	</html>

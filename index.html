@@ -32,28 +32,28 @@
 		</div>
 	</div>
 	<!-- Fin de Loading -->
+
 	<!-- Header-->
 	<header id="header">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-			<div class="container">
-				<a class="navbar-brand" href="index.html"><img src="img/logo/logo4.png" class="nav-logo" alt="logo New Colege"> New College</a>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white nav-shadow fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img src="img/logo/logo1.png" class="nav-logo" alt="logo New Colege"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-				
+
 				<div class="collapse navbar-collapse" id="navbar">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link active" href="index.html">Inicio</a>
+							<a class="nav-link" href="index.html"><i class="fas fa-angle-down d-none d-lg-block"></i>Inicio</a>
 						</li>
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Quiénes Somos
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item" href="quienes-somos/bienvenida.html">Bienvenida</a>
 								<a class="dropdown-item" href="quienes-somos/mision-vision.html">Misión y Visión</a>
-								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="quienes-somos/principios-educativos.html">Principios Educativos</a>
 								<a class="dropdown-item" href="quienes-somos/historia.html">Historia</a>
 								<a class="dropdown-item" href="quienes-somos/porque-elegir-new-colllege.html">¿Por qué elegir New College?</a>
@@ -82,7 +82,6 @@
 								<div class="dropdown-divider"></div>
 								<a class="dropdown-item" href="areas-academicas/profesores.html">Profesores</a>
 								<a class="dropdown-item" href="areas-academicas/programa-verano.html">Programa de Verano</a>
-
 							</div>
 						</li>
 						<li class="nav-item dropdown">
@@ -94,16 +93,16 @@
 								<a class="dropdown-item" href="familia/preceptoria.html">Preceptoría</a>		   
 								<a class="dropdown-item" href="familia/formacion-espiritual.html">Formación Espiritual</a>
 							</div>
-						</li>
-						
+						</li>		
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Eventos
+								Programa
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="eventos/noticias.html">Noticias</a>
-								<a class="dropdown-item" href="eventos/calendario-escolar.html">Calendario Escolar</a>		   
-								<a class="dropdown-item" href="eventos/galeria-imagenes.html">Galería de Imagenes</a>
+								<a class="dropdown-item" href="programa/inicial.html">Incial</a>
+								<a class="dropdown-item" href="programa/primaria.html">Primaria</a>		   
+								<a class="dropdown-item" href="programa/secundaria.html">Secundaria</a>
+								<a class="dropdown-item" href="programa/academia.html">Academia</a>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -115,36 +114,32 @@
 		</nav>
 	</header>
 	<!--Fin de header-->
-	<!--Main-->
-	<main id="main">
-		<div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<img class="d-block w-100" src="img/bg/1.jpg" alt="First slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100" src="img/bg/2.jpg" alt="Second slide">
-				</div>
-				<div class="carousel-item">
-					<img class="d-block w-100" src="img/bg/3.jpg" alt="Third slide">
-				</div>
-				<div class="overlay">
-					<div class="container">
-						<div class="row align-items-center">
-							<div class="col-md-6 offset-md-6 text-center text-md-right">
-								<h1 class="text-cel">New College</h1>
-								<p class="d-none d-md-block"></p>
-								<a href="#" class="btn btn-outline-light">Bienvenido</a>
-							</div>
-						</div>
-					</div>
-				</div>
+
+	<!--Inicio de Slider-->
+	<div id="carouselExampleFade" class="carousel slide carousel-fade sliders" data-ride="carousel">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="first-slider-inicio"></div>
+			</div>
+			<div class="carousel-item">
+				<div class="second-slider-inicio"></div>
+			</div>
+			<div class="carousel-item">
+				<div class="three-slider-inicio"></div>
 			</div>
 		</div>
-	</main>
-	<!-- Fin de main-->
+		<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<!--Fin de Slider-->
+
 	<!-- Noticias - Eventos -->
-	
 	<section class="noticias-eventos">
 		<div class="container mt-4">
 			<div class="row">
@@ -224,8 +219,8 @@
 		</div>
 	</section>
 	<!-- fin Noticias - Eventos-->
-	<!-- Footer-->
-	<!-- Footer -->
+
+	<!--Incio de Footer -->
 	<footer class="page-footer font-small indigo bg-dark dark">
 
 		<!-- Footer Links -->
@@ -237,7 +232,7 @@
 				<!-- Grid column -->
 				<div class="col-md-2 mb-3">
 					<h6 class="text-uppercase font-weight-bold">
-						<a href="#!">Nosotros</a>
+						<a href="quienes-somos/bienvenida.html">Nosotros</a>
 					</h6>
 				</div>
 				<!-- Grid column -->
@@ -245,7 +240,7 @@
 				<!-- Grid column -->
 				<div class="col-md-2 mb-3">
 					<h6 class="text-uppercase font-weight-bold ">
-						<a href="#!">Admisión</a>
+						<a href="admision/admision.html">Admisión</a>
 					</h6>
 				</div>
 				<!-- Grid column -->
@@ -253,7 +248,7 @@
 				<!-- Grid column -->
 				<div class="col-md-2 mb-3">
 					<h6 class="text-uppercase font-weight-bold">
-						<a href="#!">Áreas Académicas</a>
+						<a href="areas-academicas/aulas-academicas.html">Áreas Académicas</a>
 					</h6>
 				</div>
 				<!-- Grid column -->
@@ -261,7 +256,7 @@
 				<!-- Grid column -->
 				<div class="col-md-2 mb-3">
 					<h6 class="text-uppercase font-weight-bold">
-						<a href="#!">Familia</a>
+						<a href="familia/formacion-padres.html">Familia</a>
 					</h6>
 				</div>
 				<!-- Grid column -->
@@ -269,7 +264,7 @@
 				<!-- Grid column -->
 				<div class="col-md-2 mb-3">
 					<h6 class="text-uppercase font-weight-bold">
-						<a href="#!">Contáctenos</a>
+						<a href="contactenos.html">Contáctenos</a>
 					</h6>
 				</div>
 				<!-- Grid column -->
@@ -302,24 +297,24 @@
 					<div class="mb-5 text-center">
 
 						<!-- Facebook -->
-						<a class="fb-ic" href="https://www.facebook.com/New-College-Huancayo-804533273055144/?modal=admin_todo_tour" >
-							<i class="fab fa-facebook-square fa-lg text-white mr-4"> </i>
+						<a href="https://www.facebook.com/New-College-Huancayo-804533273055144/?modal=admin_todo_tour" class="fb-ic" target="_blank">
+							<i class="fab fa-facebook-square fa-lg mx-2"> </i>
 						</a>
 						<!-- Twitter -->
-						<a class="tw-ic" href="https://twitter.com/HuancayoNew">
-							<i class="fab fa-twitter fa-lg text-white mr-4"> </i>
+						<a href="https://twitter.com/HuancayoNew" class="tw-ic" target="_blank">
+							<i class="fab fa-twitter fa-lg mx-2"> </i>
 						</a>
 						<!-- Google +-->
-						<a class="gplus-ic">
-							<i class="fab fa-google-plus fa-lg text-white mr-4"> </i>
+						<a href="https://www.facebook.com" class="gplus-ic" target="_blank">
+							<i class="fab fa-google-plus fa-lg mx-2"> </i>
 						</a>
 						<!--Linkedin -->
-						<a class="li-ic" href="https://www.linkedin.com/in/new-college-huancayo-a56244174/">
-							<i class="fab fa-linkedin fa-lg text-white mr-4"> </i>
+						<a href="https://www.linkedin.com/in/new-college-huancayo-a56244174/" class="li-ic" target="_blank">
+							<i class="fab fa-linkedin fa-lg mx-2"> </i>
 						</a>
 						<!--Instagram-->
-						<a class="ins-ic" href="https://www.instagram.com/newcollege_huancayo/">
-							<i class="fab fa-instagram fa-lg text-white mr-4"> </i>
+						<a href="https://www.instagram.com/newcollege_huancayo/" class="ins-ic" target="_blank">
+							<i class="fab fa-instagram fa-lg mx-2"> </i>
 						</a>
 
 					</div>
@@ -335,13 +330,31 @@
 
 		<!-- Copyright -->
 		<div class="footer-copyright text-center py-3" style="color:#fff;">© 2018 Copyright:
-			<a href="https://www.Nibbleframe.com" style="color:#fff;"> <small class="badge badge-success">Nibbleframe.com</small></a>
+			<a href="https://www.Nibbleframe.com" style="color:#fff;" target="_blank"> <small class="badge badge-success">Nibbleframe.com</small></a>
 		</div>
 		<!-- Copyright -->
 
 	</footer>
-	<!-- Footer -->
-	<!-- fin de footer-->
+	<!-- Fin de footer-->
+
+	<!--Inicio de Sociales-->
+	<div class="sociales">
+		<div>
+			<a href="https://www.facebook.com/New-College-Huancayo-804533273055144/?modal=admin_todo_tour" target="_blank"><img src="img/logo/facebook.png" alt="facebook"></a>
+			<a href="https://web.whatsapp.com" target="_blank"><img src="img/logo/whatsapp.svg" alt="whatsapp"></a>
+			<a href="https://www.youtube.com" target="_blank"><img src="img/logo/youtube.svg" alt="youtube"></a>
+		</div>
+	</div>
+	<!--Fin de Sociales-->
+
+	<!--inicio de flecha-->
+	<a href="#">
+		<div id="arrow" class="flecha">
+			<i class="fas fa-angle-up"></i>
+		</div>
+	</a>
+	<!--fin de flecha-->
+
 	<!-- Frame Facebool-->
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
