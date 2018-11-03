@@ -2,7 +2,7 @@
 .first-slider-religiosas{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/1.jpg);
+	background-image: url(../img/quienes-somos/misa1.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -11,7 +11,7 @@
 .second-slider-religiosas{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/2.jpg);
+	background-image: url(../img/quienes-somos/misa2.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -20,7 +20,7 @@
 .three-slider-religiosas{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/3.jpg);
+	background-image: url(../img/quienes-somos/misa3.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -29,7 +29,7 @@
 .first-slider-academicas{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/1.jpg);
+	background-image: url(../img/quienes-somos/pq1.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -38,7 +38,7 @@
 .second-slider-academicas{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/2.jpg);
+	background-image: url(../img/quienes-somos/consejo1.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -47,7 +47,7 @@
 .three-slider-academicas{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/3.jpg);
+	background-image: url(../img/quienes-somos/consejo2.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -56,7 +56,7 @@
 .first-slider-profesores{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/1.jpg);
+	background-image: url(../img/quienes-somos/p1.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -65,7 +65,7 @@
 .second-slider-profesores{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/2.jpg);
+	background-image: url(../img/quienes-somos/p2.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -74,7 +74,7 @@
 .three-slider-profesores{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/3.jpg);
+	background-image: url(../img/quienes-somos/p3.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -83,7 +83,7 @@
 .first-slider-verano{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/1.jpg);
+	background-image: url(../img/quienes-somos/1.png);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -92,7 +92,7 @@
 .second-slider-verano{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/2.jpg);
+	background-image: url(../img/quienes-somos/2.png);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -101,7 +101,7 @@
 .three-slider-verano{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/3.jpg);
+	background-image: url(../img/quienes-somos/3.png);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -110,7 +110,7 @@
 .first-slider-taller{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/1.jpg);
+	background-image: url(../img/quienes-somos/musica1.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -119,7 +119,7 @@
 .second-slider-taller{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/2.jpg);
+	background-image: url(../img/quienes-somos/musica2.JPG);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
@@ -128,7 +128,7 @@
 .three-slider-taller{
 	width: 100%;
 	height: 65vh;
-	background-image: url(../img/quienes-somos/3.jpg);
+	background-image: url(../img/quienes-somos/musica3.jpg);
 	background-size: cover;
 	background-position: top;
 	background-blend-mode: center;
