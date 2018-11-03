@@ -1,33 +1,3 @@
-/* Incio de slider -----------------------------*/
-.first-slider-contactenos{
-	width: 100%;
-	height: 65vh;
-	background-image: url(../img/quienes-somos/1.png);
-	background-size: cover;
-	background-position: top;
-	background-blend-mode: center;
-	background-color: rgba(0, 0, 0, 0.2);
-}
-.second-slider-contactenos{
-	width: 100%;
-	height: 65vh;
-	background-image: url(../img/quienes-somos/2.png);
-	background-size: cover;
-	background-position: top;
-	background-blend-mode: center;
-	background-color: rgba(0, 0, 0, 0.2);
-}
-.three-slider-contactenos{
-	width: 100%;
-	height: 65vh;
-	background-image: url(../img/quienes-somos/3.png);
-	background-size: cover;
-	background-position: top;
-	background-blend-mode: center;
-	background-color: rgba(0, 0, 0, 0.2);
-}
-/* Fin de slider -------------------------------*/
-
 /*inicio de Contactenos -----------------------------*/
 .map-container{
 	height: 615px;

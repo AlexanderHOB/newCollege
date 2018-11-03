@@ -172,6 +172,10 @@ body{
 .sliders{
 	margin-top: 4.1rem;
 }
+.carousel-img{
+	max-height: 80vh;
+}
+/*
 .first-slider-inicio{
 	width: 100%;
 	height: 65vh;
@@ -199,6 +203,7 @@ body{
 	background-blend-mode: center;
 	background-color: rgba(0, 0, 0, 0.2);
 }
+*/
 /* Fin de Sliders -----------------------------------*/
 
 /* Inicio de Noticias -------------------------------*/
