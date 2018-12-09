@@ -1,0 +1,7 @@
+.afiche{
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 4em;
+}
